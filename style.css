@@ -1,0 +1,34 @@
+.styleTextForNavbar
+{
+    color:#FAED25;
+    font-family:monospace;
+    font-size:24px;
+    margin-right:40px;
+    
+}
+.styleTextForLogoNavbar
+{
+    color:#FAED25;
+    font-family:Tapestry;
+    font-size:24px;
+    margin-left:25px;
+}
+.styleTextForBigLogo
+{
+    color:#FAED25;
+    font-family:Tapestry;
+
+}
+.styleTextForH1
+{
+    color:#FAED25;
+    font-family:Tapestry;
+    font-size:24px;
+    margin-left:20px;
+}
+.styleText
+{
+    color:white;
+    font-size:24px;
+    margin-left:20px;
+}
