@@ -21,36 +21,212 @@
           <li><a href="#" class="nav-link px-2 styleTextForNavbar text-center">Log out</a></li>
         </ul>
       </div>
-      
-      <div class="rounded-3 col-md-10 offset-md-1" style="background-color:#5B5561">
-        <br>
-        <h1 class="styleTextForH1">Добро пожаловать на сайт Family Vailt!</h1>
-          <p class="styleText">
-            Этот сайт преднозначен для просмотра фотографий и видио только одной семьи и есди вы попали <br>сюда и  
-            при этом вы не относитесь к этой семье то надеюсь на ваше благоразумие. На данный сайт <br> можно зайти с 3 видов аккаунов.
-          </p>
-          <ol>
-            <li class="styleText">
-              Первый вид аккаунтов это основной аккаунт члена семьи. Он позволяет просмативать все медиа и 
-              добавлять новые а так же их редактировать или удалять.
-            </li>
-            <li class="styleText">
-              Второй вид аккаунта это гостевой аккаунт. 
-              Если вы вошли с него то можете просматиривать только огрниченое 
-              количество медиа которые для вас выбрали члены семьи. 
-            </li>
-            <li class="styleText">
-              Третий вид аккаунта это админский аккаунт.
-            </li>
-          </ol>
-          <p class="styleText">
-            Так же прошу заметить что создания гостевых аккаунтов возможно только с 
-            одоюрения заявки со стороны администрации и предворительного согласие на это. 
-            <br><br><br>
-            Приятного использования.
-          </p>
+      <div class="row">
+        <div class="rounded-3 col-md-3" style="margin-top:5%;margin-left:5%;background-color:#5B5561">
           <br>
+          <h1 class="styleTextForH1">Здесь вы можете выбрать какие характеристики будут в вашей выборке</h1>
+          <div class="container">
+            <form>
+              <div class="row">
+                <div class="col-sm">
+                  <label for="InputCountPerson"class="form-label styleForLabel">
+                    ведите количество людей на фото
+                  </label>
+                  <input type="email" class="form-control" id="InputCountPerson" name="CountPerson" value=""></input>
+                </div>
+                <div class="col-sm">
+                  <label for="InputNameMedia" class="form-label styleForLabel">
+                    введите название фото<br><br>
+                  </label>
+                  <input type="text" class="form-control" id="InputNameMedia" name="NameMedia" value=""></input>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <label for="InputDescriptionMedia" class="form-label styleForLabel">
+                    <br>введите описание фото
+                  </label>
+                  <input type="text" class="form-control" id="InputDescriptionMedia" name="DescriptionMedia" value=""></input>
+                </div>
+                <div class="col-sm">
+                  <label class="form-check-label styleForLabel" for="checkboxForFiltr">
+                    <br>Фильтр
+                  </label><br><br>
+                  <input class="form-check-input" type="checkbox" value="" id="checkboxForFiltr" name="Filtr">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <label class="form-label styleForLabel" for="InputFilmingFrom" name="FilmingFrom">
+                    <br>Снятые от
+                  </label>
+                  <input class="form-control" type="date" value="" id="InputFilmingFrom">
+                </div>
+                <div class="col-sm">
+                  <label class="form-label styleForLabel" for="InputFilmingTo">
+                    <br>Снятые до
+                  </label>
+                  <input class="form-control" type="date" value="" id="InputFilmingTo" name="FilmingTo">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <label class="form-label styleForLabel" for="InputDownloadFrom">
+                    <br>Загруженые от
+                  </label>
+                  <input class="form-control" type="date" value="" id="InputDownloadFrom" name="DownloadFrom">  
+                </div>
+                <div class="col-sm">
+                  <label class="form-label styleForLabel" for="InputDownloadTo">
+                    <br>Загруженные до
+                  </label>
+                  <input class="form-control" type="date" value="" id="InputDownloadTo" name="DownloadTo">
+                </div>
+              </div>
+              <div class="row">
+                <label class="form-label styleForLabel">
+                  <br>выберете членов семьи на фото
+                </label>
+                <div class="col-sm">
+                  <input class="form-check-input" type="checkbox" value="" name="personNumber">
+                  <label class="styleForLabel">name name name</label><br>
+                  <input class="form-check-input" type="checkbox" value="" name="personNumber">
+                  <label class="styleForLabel">name name name</label><br>
+                  <input class="form-check-input" type="checkbox" value="" name="personNumber">
+                  <label class="styleForLabel">name name name</label><br>
+                  <input class="form-check-input" type="checkbox" value="" name="personNumber">
+                  <label class="styleForLabel">name name name</label><br>
+                </div>
+                <div class="col-sm">
+                  <input class="form-check-input" type="checkbox" value="" name="personNumber">
+                  <label class="styleForLabel">name name name</label><br>
+                  <input class="form-check-input" type="checkbox" value="" name="personNumber">
+                  <label class="styleForLabel">name name name</label><br>
+                  <input class="form-check-input" type="checkbox" value="" name="personNumber">
+                  <label class="styleForLabel">name name name</label><br>
+                  <input class="form-check-input" type="checkbox" value="" name="personNumber">
+                  <label class="styleForLabel">name name name</label><br>
+                </div>
+              </div>
+              <div>
+                <button type="submit" class="btn " style="background-color:#46344E;color:white;margin-left:33%;margin-top:30px">Показать фото</button>
+              </div>
+            </form>
+          </div>
+            <br>
+        </div>
+          <div class="col-md-8 " style="margin-top:5%;">
+            <div class="row row-cols-md-4">
+              <a href="#" style="text-decoration:none">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color:#46344E;">
+                    <img src="img/two.png" size="14%" style="border-radius:3%">
+                      <label class="styleForNameMedia" style="margin-left:13px; margin-bottom:13px">Название фотографии</label>
+                        <span class="styleTextForCard" style="margin-left:13px; margin-bottom:13px">
+                          Описание фото: Это фото такое то такое
+                        </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" style="text-decoration:none">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color:#46344E;">
+                    <img src="img/two.png" size="14%" style="border-radius:3%">
+                      <label class="styleForNameMedia" style="margin-left:13px; margin-bottom:13px">Название фотографии</label>
+                        <span class="styleTextForCard" style="margin-left:13px; margin-bottom:13px">
+                          Описание фото: Это фото такое то такое
+                        </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" style="text-decoration:none">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color:#46344E;">
+                    <img src="img/two.png" size="14%" style="border-radius:3%">
+                      <label class="styleForNameMedia" style="margin-left:13px; margin-bottom:13px">Название фотографии</label>
+                        <span class="styleTextForCard" style="margin-left:13px; margin-bottom:13px">
+                          Описание фото: Это фото такое то такое
+                        </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" style="text-decoration:none">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color:#46344E;">
+                    <img src="img/two.png" size="14%" style="border-radius:3%">
+                      <label class="styleForNameMedia" style="margin-left:13px; margin-bottom:13px">Название фотографии</label>
+                        <span class="styleTextForCard" style="margin-left:13px; margin-bottom:13px">
+                          Описание фото: Это фото такое то такое
+                        </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" style="text-decoration:none">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color:#46344E;">
+                    <img src="img/two.png" size="14%" style="border-radius:3%">
+                      <label class="styleForNameMedia" style="margin-left:13px; margin-bottom:13px">Название фотографии</label>
+                        <span class="styleTextForCard" style="margin-left:13px; margin-bottom:13px">
+                          Описание фото: Это фото такое то такое
+                        </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" style="text-decoration:none">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color:#46344E;">
+                    <img src="img/two.png" size="14%" style="border-radius:3%">
+                      <label class="styleForNameMedia" style="margin-left:13px; margin-bottom:13px">Название фотографии</label>
+                        <span class="styleTextForCard" style="margin-left:13px; margin-bottom:13px">
+                          Описание фото: Это фото такое то такое
+                        </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" style="text-decoration:none">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color:#46344E;">
+                    <img src="img/two.png" size="14%" style="border-radius:3%">
+                      <label class="styleForNameMedia" style="margin-left:13px; margin-bottom:13px">Название фотографии</label>
+                        <span class="styleTextForCard" style="margin-left:13px; margin-bottom:13px">
+                          Описание фото: Это фото такое то такое
+                        </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" style="text-decoration:none">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="background-color:#46344E;">
+                    <img src="img/two.png" size="14%" style="border-radius:3%">
+                      <label class="styleForNameMedia" style="margin-left:13px; margin-bottom:13px">Название фотографии</label>
+                        <span class="styleTextForCard" style="margin-left:13px; margin-bottom:13px">
+                          Описание фото: Это фото такое то такое
+                        </span>
+                  </div>
+                </div>
+              </a>
+            </div>
       </div>
+
+        <div class="row offset-md-4">
+          <div class="col">
+              <button class="btn" style="background-color:transparent;border:none" type="button">
+              <img src="icons/стрелка2.png">
+              </button>
+          </div>
+        <div class="col">
+          <button class="btn" style="background-color:transparent;border:none" type="button">
+          <img src="icons/стрелка1.png">
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+      <br><br><br><br><br><br><br><br>
+
     </header>
   </body>
 </html>

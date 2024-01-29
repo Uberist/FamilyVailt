@@ -32,3 +32,17 @@
     font-size:24px;
     margin-left:20px;
 }
+.styleForLabel
+{
+    color:white;
+}
+.styleForNameMedia
+{
+    font-size:24px;
+    color:white;
+}
+.styleTextForCard
+{
+    color:white;
+    font-size:16px;
+}
