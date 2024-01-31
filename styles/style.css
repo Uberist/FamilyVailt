@@ -46,3 +46,19 @@
     color:white;
     font-size:16px;
 }
+.mainBtn
+{
+    background-color:#46344E;
+    border-radius:6px;
+    border-color:#46344E;
+    border:3px;
+    padding: 6px 18px;
+    color:white;
+}
+.mainBtn:hover
+{
+    border:none;
+    color:black;
+    background-color:#FAED25;
+    
+}

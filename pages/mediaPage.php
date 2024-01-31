@@ -5,29 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Family Vailt</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
+    <link href="../styles/style.css" rel="stylesheet">
   </head>
   <body style="background-color:#9D8D8E">
-    <header>
-      <div class="container-fluid d-flex" style="background-color:#46344E">
-        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
-          <img src="img/logo.png"class="bi me-2" width="111" height="111" style="margin-left:40px;"></svg>
-          <span class="fs-4 styleTextForLogoNavbar">Family Vailt</span>
-        </a>
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 align-items-center">
-          <li><a href="adminPage.html" class="nav-link px-2 styleTextForNavbar text-center">Admin <br> Panel</a></li>
-          <li><a href="mainPage.html" class="nav-link px-2 styleTextForNavbar text-center">Main</a></li>
-          <li><a href="insertMedia.html" class="nav-link px-2 styleTextForNavbar text-center">Insert <br> Media</a></li>
-          <li><a href="familyArchive.html" class="nav-link px-2 styleTextForNavbar text-center">Family <br> Archive</a></li>
-          <li><a href="#" class="nav-link px-2 styleTextForNavbar text-center">Log out</a></li>
-        </ul>
-      </div>
+      <?php include('../component/navbar.php') ?>
       <div class="d-flex">
         <div class="rounded-3 col-md-3" style="margin-top:5%;margin-left:5%;background-color:#5B5561">
           <br>
           <h1 class="styleTextForH1">Название медиа</h1>
           <label class="styleForLabel" style="margin-left:20px;">Описание медиа:</label>
-          <p class="styleTextForCard" style="margin-left:20px;">mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription 
+          <p class="styleTextForCard" style="margin-left:4%;margin-right:2%">mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription 
             mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription
             mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription
             mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription mediaDescription
@@ -57,18 +44,17 @@
         <div class="offset-md-1 col-md-6 rounded-3 d-flex justify-content-center align-self-start" style="height:528px; margin-top:5%; background-color:#5B5561;align-items:center; ">
             <div class="">
                 <button class="btn" style="background-color:transparent;border:none" type="button">
-                <img src="icons/стрелка2.png">
+                <img src="../icons/стрелка2.png">
                 </button>
             </div>
-            <img src="MediaArchive/home.jpg" class="rounded-3" width="760" height="428">
+            <img src="../MediaArchive/home.jpg" class="rounded-3" width="760" height="428">
             <div class="">
                 <button class="btn" style="background-color:transparent;border:none" type="button">
-                <img src="icons/стрелка1.png">
+                <img src="../icons/стрелка1.png">
                 </button>
               </div>
         </div>
     </div>
       <!-- <br><br><br><br><br><br><br><br> -->
-    </header>
   </body>
 </html>
